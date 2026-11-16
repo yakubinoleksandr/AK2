@@ -1,0 +1,1 @@
+cmd_/home/genokiller/repos/Lab5/hello1.ko := arm-linux-gnueabihf-ld -r -EL -z noexecstack -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/genokiller/repos/Lab5/hello1.ko /home/genokiller/repos/Lab5/hello1.o /home/genokiller/repos/Lab5/hello1.mod.o ;  true
